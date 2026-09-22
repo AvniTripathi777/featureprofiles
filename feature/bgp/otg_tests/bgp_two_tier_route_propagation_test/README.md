@@ -138,8 +138,11 @@ graph LR;
 
 ## OpenConfig Path and RPC Coverage
 
+** TODO: Update openconfig public data models to add l3vpn-ipv4-unicast and l3vpn-ipv6-unicast to the [/network-instances/network-instance/protocols/protocol/bgp/rib/afi-safis/afi-safi](https://openconfig.net/projects/models/schemadocs/yangdoc/openconfig-network-instance.html#network-instances-network-instance-protocols-protocol-bgp-rib-afi-safis-afi-safi) container.
+
 ```yaml
 paths:
+  # TODO: Update openconfig public data models to add l3vpn-ipv4-unicast and l3vpn-ipv6-unicast to the /network-instances/network-instance/protocols/protocol/bgp/rib/afi-safis/afi-safi container.
   # BGP RIB Attributes and Routes
   /network-instances/network-instance/protocols/protocol/bgp/rib/afi-safis/afi-safi/ipv4-unicast/loc-rib/routes/route/state/prefix:
   /network-instances/network-instance/protocols/protocol/bgp/rib/afi-safis/afi-safi/ipv6-unicast/loc-rib/routes/route/state/prefix:
